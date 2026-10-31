@@ -8,7 +8,7 @@ from telebot import types
 
 # ============ CONFIG ============
 API_URL = "https://anishexploits.com/bomber/custom-sms.php"
-OWNER   = "Exclusive SUMIT"
+OWNER   = "SUMIT"
 TELEGRAM_BOT_TOKEN = "8958289792:AAEl79ui_MvWzwFZZp1v9O8IhdaPV_1lgNQ"
 
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
@@ -126,8 +126,7 @@ def process_attack_steps(message):
                     f"📤 Sent      : {sent}\n"
                     f"❌ Failed    : {failed}\n"
                     f"⏱  Time      : {time_ms} ms\n"
-                    f"⚡ Speed     : {speed}\n"
-                    f"🏷  Brand     : {data.get('brand', 'N/A')}\n\n"
+                    f"⚡ Speed     : {speed}\n\n"
                     f"Target neutralized. Good job, {OWNER}!"
                 )
                 bot.send_message(chat_id, result_text, parse_mode="Markdown", reply_markup=main_menu_keyboard())
