@@ -9,7 +9,7 @@ from telebot import types
 # ============ CONFIG ============
 API_URL = "https://anishexploits.com/bomber/custom-sms.php"
 OWNER   = "SUMIT"
-TELEGRAM_BOT_TOKEN = "8958289792:AAEl79ui_MvWzwFZZp1v9O8IhdaPV_1lgNQ"
+TELEGRAM_BOT_TOKEN = "9269564441:AAF-LuDOufi6QzinqSF2BHkXha1QDKI_Cts"
 
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
 
